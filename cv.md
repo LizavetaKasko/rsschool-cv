@@ -24,7 +24,7 @@ Currently working as a Recruiter in an IT company.
 
 # Code example
 
-function myLanguages(results) {
+```function myLanguages(results) {
 let objectToArray = Object.entries(results)
 let array = objectToArray.sort((a, b) => a[1] > b[1] ? -1 : 1)
 
@@ -36,6 +36,7 @@ result.push(elem[0])
 })
 return result
 }
+```
 
 # Projects
 
